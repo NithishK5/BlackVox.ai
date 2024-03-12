@@ -6,6 +6,8 @@ import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 // import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
+import Notification from "./Notification";
+import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -57,6 +59,12 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex"></ul>
                 </ScrollParallax>
+                <ScrollParallax isAbsolutelyPositioned>
+                  <Notification
+                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
+                    title="Our app operates akin to a black hole, seamlessly aggregating nearby data. With BlackVox AI, personalized experiences are crafted through continuous refinement. "
+                  />
+                </ScrollParallax>
               </div>
             </div>
             {/* <Gradient /> */}
@@ -72,7 +80,9 @@ const Hero = () => {
           </div> */}
           <BackgroundCircles />
         </div>
+        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
+      <BottomLine />
     </Section>
   );
 };
