@@ -80,7 +80,7 @@ const Header = () => {
         >
           Roadmap
         </a> */}
-        <Button className="hidden lg:flex" href="#Roadmap">
+        <Button className="hidden lg:flex" href="#Footer">
           Contact
         </Button>
         {/* <a
