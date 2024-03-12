@@ -110,24 +110,24 @@ export const roadmap = [
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
-
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "CosmicUI",
+    text: "Embark on a journey through the cosmos with our CosmicUI, intricately crafted to mirror the mysterious elegance of black holes.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Elevating Interactions to New Heights",
+    text: "Embrace the future with Mira's human-like voice output, offering immersive interactions, tailored responses, and customizable voice options for a truly seamless experience.",
   },
-  {
-    id: "2",
-    title: "Top-notch Security",
-  },
-];
+  
+//   {
+//     id: "2",
+//     title: "Seamless Integration",
+//     text: "Experience seamless vehicle-to-mobile integration, enhancing connectivity and productivity with our innovative app.",
+//   },
+// ];
 
 export const collabApps = [
   {
