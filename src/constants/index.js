@@ -47,11 +47,11 @@ export const navigation = [
     title: "Roadmap",
     url: "#Roadmap",
   },
-  {
-    id: "2",
-    title: "Contact",
-    url: "#Contact",
-  },
+  // {
+  //   id: "2",
+  //   title: "Contact",
+  //   url: "#Contact",
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -77,36 +77,38 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Ideation and Concept Development:",
+    text: "Brainstorm and refine the concept of BlackVox.ai, focusing on its core functionalities and unique selling points. Develop a comprehensive understanding of user needs and market trends in both mobile applications and vehicle infotainment systems.",
+    date: "Feb 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Software Development Cycle Integration:",
+    text: "Integrate BlackVox.ai into the software development cycle, ensuring seamless collaboration between different ends and efficient project management.",
+    date: "Mar 2024",
+    status: "done",
     imageUrl: roadmap2,
+    colorful: true,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
+    title:
+      "Advanced AI and Backend Development with Large Language Models (LLMs):",
+    text: " Implement advanced AI algorithms and backend infrastructure to power the intelligence of BlackVox.ai, leveraging Large Language Models (LLMs) for natural language understanding and dialogue generation.",
+    date: "May 2024",
+    status: "progress",
+    imageUrl: roadmap4,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Mobile Application Development and Frontend Design:",
+    text: "Develop the mobile application interface for BlackVox.ai, focusing on intuitive user experience and visually appealing design elements.",
+    date: "Apr 2024",
     status: "progress",
-    imageUrl: roadmap4,
+    imageUrl: roadmap3,
   },
 ];
 
@@ -121,13 +123,13 @@ export const collabContent = [
     title: "Elevating Interactions to New Heights",
     text: "Embrace the future with Mira's human-like voice output, offering immersive interactions, tailored responses, and customizable voice options for a truly seamless experience.",
   },
-  
-//   {
-//     id: "2",
-//     title: "Seamless Integration",
-//     text: "Experience seamless vehicle-to-mobile integration, enhancing connectivity and productivity with our innovative app.",
-//   },
-// ];
+
+  //   {
+  //     id: "2",
+  //     title: "Seamless Integration",
+  //     text: "Experience seamless vehicle-to-mobile integration, enhancing connectivity and productivity with our innovative app.",
+  //   },
+];
 
 export const collabApps = [
   {
