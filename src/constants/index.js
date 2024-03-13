@@ -77,8 +77,8 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Ideation and Concept Development:",
-    text: "Brainstorm and refine the concept of BlackVox.ai, focusing on its core functionalities and unique selling points. Develop a comprehensive understanding of user needs and market trends in both mobile applications and vehicle infotainment systems.",
+    title: "Phase - 1",
+    text: "In this phase, the app concept was conceptualized, market research was conducted, and requirements were defined. Insights were gathered to understand user needs and competitors were analyzed. Based on this, a clear app concept was developed, and the MVP scope was defined. Through workshops and interviews, requirements were prioritized, and a project plan with timelines and milestones was created.",
     date: "Feb 2024",
     status: "done",
     imageUrl: roadmap1,
@@ -86,29 +86,27 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Software Development Cycle Integration:",
-    text: "Integrate BlackVox.ai into the software development cycle, ensuring seamless collaboration between different ends and efficient project management.",
+    title: "Phase - 2",
+    text: "We focus on developing the frontend of the app. Using the defined UI/UX design, we create wireframes and prototypes. Then, we begin coding the frontend components, ensuring a seamless user experience. Iterative development allows us to refine the interface based on user feedback, enhancing usability and engagement.",
     date: "Mar 2024",
-    status: "done",
-    imageUrl: roadmap2,
-    colorful: true,
-  },
-  {
-    id: "2",
-    title:
-      "Advanced AI and Backend Development with Large Language Models (LLMs):",
-    text: " Implement advanced AI algorithms and backend infrastructure to power the intelligence of BlackVox.ai, leveraging Large Language Models (LLMs) for natural language understanding and dialogue generation.",
-    date: "May 2024",
     status: "progress",
-    imageUrl: roadmap4,
+    imageUrl: roadmap2,
   },
   {
     id: "3",
-    title: "Mobile Application Development and Frontend Design:",
-    text: "Develop the mobile application interface for BlackVox.ai, focusing on intuitive user experience and visually appealing design elements.",
+    title: "Phase - 3",
+    text: "Developing the backend infrastructure, including database design and server-side logic. Additionally, we integrate Large Language Models (LLMs) to power advanced AI algorithms for natural language understanding and dialogue generation. Leveraging LLMs enhances the app's intelligence, enabling sophisticated interactions and personalized experiences.",
     date: "Apr 2024",
     status: "progress",
     imageUrl: roadmap3,
+  },
+  {
+    id: "2",
+    title: "Phase - 4",
+    text: " In this final phase, we conduct thorough testing to ensure the app's functionality, performance, and security. We implement automated and manual testing processes, including unit tests, integration tests, and user acceptance testing. Any issues identified are addressed promptly, and the app undergoes refinement to deliver a polished, reliable product to users.",
+    date: "May 2024",
+    status: "progress",
+    imageUrl: roadmap4,
   },
 ];
 
