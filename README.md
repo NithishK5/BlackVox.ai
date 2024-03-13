@@ -23,16 +23,16 @@ Make sure you have the following installed on your machine:
 
 ### Cloning the Repository
 
-git clone https://github.com/BlackVox-ai/website.git
-cd website
+- git clone https://github.com/BlackVox-ai/website.git
+- cd website
 
 ### Installation
 
-npm install
+- npm install
 
 ### Running the Project
 
-npm run dev
+- npm run dev
 
 Open http://localhost:5173 in your browser to view the project.
 
